@@ -1,0 +1,12 @@
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.AssemblyReference.cache
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.SuggestedBindingRedirects.cache
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Properties.Resources.resources
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.GenerateResource.cache
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\obj\Debug\TicTacToe.FormMenu.resources
+E:\CÉGEP\CÉGEP-H2022\orienté objet\Ateliers\TicTacToe\TicTacToe\obj\Debug\TicTacToe.FormPartie.resources
