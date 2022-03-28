@@ -10,7 +10,7 @@ namespace TicTacToe
     {
         FormMenu m_Menu;
         List<Partie> m_parties;
-        List<FormPartie> m_formParties;
+        List<FormPartie> m_formParties;//Demander si necessaire
 
         [STAThread]
         static void Main()
@@ -27,10 +27,17 @@ namespace TicTacToe
             Application.Run(m_Menu);
         }
 
+        //Demander si necessaire à charles
+        /**~TicTacToe()
+        {
+            m_formParties.ForEach(form => FermerPartie(form));
+        }*/
+
         public void NouvellePartie()
         {
-            Partie nouvellePartie = new Partie(this);
-            FormPartie nouvelleFormPartie = new FormPartie(this, nouvellePartie);
+            FormPartie nouvelleFormPartie = new FormPartie(this);
+            Partie nouvellePartie = new Partie(this, nouvelleFormPartie);
+            nouvelleFormPartie.Partie = nouvellePartie;
 
             m_parties.Add(nouvellePartie);
             m_formParties.Add(nouvelleFormPartie);
@@ -38,10 +45,10 @@ namespace TicTacToe
             nouvelleFormPartie.Show();
         }
 
-        public void FermerPartie(FormPartie formPartie)
+        public void FermerPartie(Partie partie)
         {
-            m_parties.Remove(formPartie.Partie);
-            m_formParties.Remove(formPartie);
+            m_parties.Remove(partie);
+            m_formParties.Remove(partie.);
         }
     }
 }

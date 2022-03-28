@@ -14,22 +14,22 @@ namespace TicTacToe
     {
         TicTacToe m_jeu;
         Partie m_partie;
-        public FormPartie(TicTacToe jeu, Partie partie)
+        public FormPartie(TicTacToe jeu)
         {
             m_jeu = jeu;
-            m_partie = partie;
 
             InitializeComponent();
         }
 
         public Partie Partie
         {
+            set { m_partie = value; }
             get { return m_partie; }
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
-            m_jeu.FermerPartie(this);
+            m_jeu.FermerPartie(m_partie);
         }
     }
 }
